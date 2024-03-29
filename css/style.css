@@ -70,6 +70,35 @@ html {
     font-size: 14px;
 }
 
-.slide-img{
+.slide-img {
     filter: grayscale(100%);
+}
+
+.offer {
+    background-color: #f2f8ff;
+}
+
+.ls-3 {
+    letter-spacing: 6px;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.check-icon {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
 }
