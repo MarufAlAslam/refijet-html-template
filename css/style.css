@@ -5,8 +5,21 @@
 
 * {
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .roca {
     font-family: 'roca', sans-serif;
+}
+
+.text-blue {
+    color: #3693FF;
+}
+
+.support-icon {
+    width: 24px;
+}
+
+.fw-5 {
+    font-weight: 500;
 }
