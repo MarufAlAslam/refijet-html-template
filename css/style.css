@@ -23,3 +23,49 @@
 .fw-5 {
     font-weight: 500;
 }
+
+.hero {
+    background-color: #f5f9fc;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 150px;
+}
+
+.number.active {
+    background-color: #3693FF;
+    color: white;
+}
+
+.number {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.bordered-form {
+    border: 2px solid #3693FF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn-blue {
+    background-color: #3693FF !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
