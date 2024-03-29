@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'roca';
+    src: url("../fonts/Roca\ Regular.ttf");
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.roca {
+    font-family: 'roca', sans-serif;
+}
