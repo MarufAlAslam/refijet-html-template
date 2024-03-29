@@ -69,3 +69,7 @@ html {
 .fs-14 {
     font-size: 14px;
 }
+
+.slide-img{
+    filter: grayscale(100%);
+}
