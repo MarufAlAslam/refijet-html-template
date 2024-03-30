@@ -215,21 +215,136 @@ html {
 .fs-32 {
     font-size: 32px;
 }
-.footer{
+
+.footer {
     background-color: #011630;
 }
 
-.f-logo{
+.f-logo {
     width: 250px;
 }
 
-.btn-outline-blue{
+.btn-outline-blue {
     border: 2px solid #3693FF;
     color: white;
 }
 
-.btn-outline-blue:hover{
+.btn-outline-blue:hover {
     background-color: transparent !important;
     border-color: #3693FF !important;
     color: white !important;
+}
+
+@media screen and (max-width: 767px) {
+    .container-fluid.px-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .left-img {
+        display: none;
+    }
+
+    img.img-fluid.logo.mb-5.top-logo {
+        margin-bottom: 0 !important;
+    }
+
+    .fs-44 {
+        font-size: 25px;
+    }
+
+    .fs-44 br {
+        display: none;
+    }
+
+    section.offer.py-5 .col-md-4 .text-center {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        text-align: left !important;
+    }
+
+    .fs-52 {
+        font-size: 35px;
+    }
+
+    .card.h-100.border-0.rate-card.custom .card-body {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .lead {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .happy-comment-wrap.max-350 {
+        max-width: 100%;
+        position: unset;
+    }
+
+    .happy-comment-wrap.max-450 {
+        max-width: 100%;
+        position: unset;
+    }
+
+    .happy-comment-wrap.max-350.customer-4 {
+        position: unset;
+        bottom: 105px;
+        left: 0;
+    }
+
+    .happy-comment-wrap.max-400 {
+        max-width: 100%;
+        position: unset;
+    }
+
+    .happy-comment-wrap.max-460.customer-3 {
+        position: unset;
+        top: 105px;
+        left: 50%;
+        transform: unset;
+    }
+
+    .happy-comment-wrap.max-520 {
+        max-width: 100%;
+        position: unset;
+    }
+
+    .happy-comments {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .happy-comment-wrap {
+        height: auto !important;
+        margin-bottom: 15px;
+    }
+
+    .process .d-flex {
+        flex-direction: column;
+        text-align: center !important;
+        margin-top: 15px;
+    }
+
+    .process .text-end {
+        text-align: center !important;
+    }
+
+    .col-rev {
+        flex-direction: column-reverse !important;
+    }
+
+    .footer * {
+        text-align: center;
+    }
+
+    img.img-fluid.acb {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 }
