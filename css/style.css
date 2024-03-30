@@ -103,7 +103,8 @@ html {
     font-size: 12px;
 }
 
-.rate-card, .testimonials {
+.rate-card,
+.testimonials {
     background-color: #f2f8ff;
 }
 
@@ -117,4 +118,89 @@ html {
 
 .fw-6 {
     font-weight: 600;
+}
+
+.happy-comments {
+    width: 1040px;
+    height: 355px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.happy-comment-wrap {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    background-color: var(--white);
+    border-radius: 75px;
+    align-items: center;
+    padding: 5px 30px 5px 5px;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 22, 48, .15);
+}
+
+.happy-comment-wrap.max-450 {
+    max-width: 450px;
+    position: absolute;
+}
+
+.happy-comment-wrap.max-350 {
+    max-width: 350px;
+    position: absolute;
+}
+.happy-comment-wrap.max-400 {
+    max-width: 400px;
+    position: absolute;
+}
+.happy-comment-wrap.max-520 {
+    max-width: 520px;
+    position: absolute;
+}
+.happy-comment-wrap.max-460 {
+    max-width: 460px;
+}
+
+.happy-comment-wrap.max-450.customer-1 {
+    top: 0;
+    left: 125px;
+}
+
+.happy-comment-wrap.max-350.customer-2 {
+    top: 30px;
+    right: 60px;
+}
+
+.happy-comment-wrap.max-350.customer-4 {
+    position: absolute;
+    bottom: 105px;
+    left: 0;
+}
+
+.happy-comment-wrap.max-400.customer-6 {
+    bottom: 0;
+    left: 190px;
+}
+
+.happy-comment-wrap.max-520.customer-5 {
+    bottom: 60px;
+    right: 0;
+}
+
+.happy-comment-wrap.max-460.customer-3 {
+    position: absolute;
+    top: 105px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.happy-customer-image {
+    width: 75px;
+    height: 75px;
+}
+
+.happy-customer-text {
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
 }
