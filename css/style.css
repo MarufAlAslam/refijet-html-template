@@ -149,14 +149,17 @@ html {
     max-width: 350px;
     position: absolute;
 }
+
 .happy-comment-wrap.max-400 {
     max-width: 400px;
     position: absolute;
 }
+
 .happy-comment-wrap.max-520 {
     max-width: 520px;
     position: absolute;
 }
+
 .happy-comment-wrap.max-460 {
     max-width: 460px;
 }
@@ -203,4 +206,30 @@ html {
     text-align: left;
     font-size: 14px;
     line-height: 17px;
+}
+
+.p-img {
+    width: 240px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+.footer{
+    background-color: #011630;
+}
+
+.f-logo{
+    width: 250px;
+}
+
+.btn-outline-blue{
+    border: 2px solid #3693FF;
+    color: white;
+}
+
+.btn-outline-blue:hover{
+    background-color: transparent !important;
+    border-color: #3693FF !important;
+    color: white !important;
 }
